@@ -1,0 +1,104 @@
+/* common nav styles */
+.navigation-wrapper {
+ height: 190px;
+ background-image: url(../images/navy\ blue\ background.jpg);
+ color: #cbcbcb;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ /* flex container */
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 60px 100px;
+ 
+}
+/* left-column */
+.navigation-wrapper > .left-column {
+ display: flex;
+ align-items: center;
+}
+.navigation-wrapper > .left-column > .icon {
+ margin-right: 20px;
+}
+
+.navigation-wrapper > .left-column > .icon i {
+ font-size: 2em;
+}
+.navigation-wrapper > .left-column > .contact-hours-wrapper {
+ display: grid;
+ grid-template-columns: 1fr;
+ grid-gap: 10px;
+ 
+}
+/* center column */
+.navigation-wrapper > .center-column {
+ display: grid;
+ grid-template-columns: 1fr;
+ grid-gap: 42px;
+ width: 500px;
+}
+
+.navigation-wrapper > .center-column > .banner-image {
+ 
+ border-radius: 20px;
+ display: flex;
+ justify-content: center;
+}
+
+.link-wrapper {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.link-wrapper > .nav-link {
+ width: 70px;
+ text-align: center;
+ 
+}
+.banner-image img {
+ border-radius: 100%;
+ width: 150px;
+ height: 100%;
+}
+.navigation-wrapper > .center-column .link-wrapper > .nav-link a {
+ text-decoration: none;
+ color: #90a505;
+ transition: 0.5s;
+}
+ 
+.navigation-wrapper > .center-column .link-wrapper > .nav-link a:hover {
+ color: #cea135;
+ letter-spacing: 1.5px;
+}
+
+/* right-column */
+.navigation-wrapper > .right-column {
+ display: flex;
+}
+.navigation-wrapper > .right-column > .address-wrapper {
+ text-align: right;
+ 
+}
+.navigation-wrapper > .right-column > .address-wrapper a {
+ text-decoration: none;
+ color: #cbcbcb;
+ transition: 0.5s;
+}
+
+ .navigation-wrapper > .right-column > .address-wrapper a:hover{
+  text-decoration: none;
+  color: #cea135;
+  letter-spacing: 0.3px;
+}
+.navigation-wrapper > .right-column > .contact-icon i {
+ color: #cbcbcb;
+ margin-left: 10px;
+ font-size: 1.5em;
+ transition: 0.5s;
+}
+.navigation-wrapper > .right-column > .contact-icon i:hover{
+ color: #cea135;
+
+}

@@ -1,0 +1,77 @@
+/* tooter-stlye */
+
+.footer {
+ background-color: #11122b;
+ color: #cbcbcb;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ height: 400px;
+ margin-top: -4px;
+}
+
+.footer > .logo img {
+width: 180px;
+height: 100%;
+border-radius: 50%;
+/* logo brightness */
+filter: brightness(50%)
+/* logo-transparency */
+opacity(0.5)
+
+}
+
+.footer > .foot-phone-hour span{
+ margin-left: 10px;
+ margin-right: 10px;
+ font-size: 1em;
+ letter-spacing: 2px;
+ 
+}
+
+.footer > .foot-phone-hour > .phone{
+ font-size: 0.8em;
+ color: #cea135;
+ 
+}
+.footer > .link-wrapper {
+ margin-top: 30px;
+ margin-bottom: 30px;
+ width: 400px;
+}
+.footer > .link-wrapper a {
+ color: #cbcbcb;
+ text-decoration: none;
+ transition: 1s;
+}
+
+ .footer > .link-wrapper a:hover {
+  color: #cea135;
+  text-decoration: underline;
+  letter-spacing: 2px;
+}
+.footer > .social-media-icon-wrapper{
+ margin-top: 30px;
+ margin-bottom: 30px;
+ width: 300px;
+ display: flex;
+ justify-content: space-around;
+ 
+}
+.footer > .social-media-icon-wrapper i {
+ font-size: 1.5em;
+ color: #cbcbcc;
+ transition: 1s;
+ text-decoration: none;
+}
+.footer > .social-media-icon-wrapper i:hover {
+ color: #cea135;
+ letter-spacing: 1px;
+ 
+}
+.footer > .coryright-wrapper{
+ margin-bottom: 42px;
+ font-size: 0.7em;
+ color: #858585;
+}
